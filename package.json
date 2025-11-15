@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://arikait0.github.io/react-todo-app2",
+  "homepage": "https://arikait0.github.io/react-todo-app2/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
