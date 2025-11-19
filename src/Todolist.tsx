@@ -9,15 +9,8 @@ type Props = {
 };
 
 const TodoList = (props: Props) => {
-  /*const todos = [...props.todos].sort((a,b) =>{
-    if (a.isDone !== b.isDone){
-        return a.isDone ? 1 : -1;
-        } else {
-            return a.deadline.getTime() - b.deadline.getTime();
-        }
-  }
-);*/
-  const todos = props.todos;
+  const removeOldDeadlines = props.todos.filter((todo)=> !todo.isWeek );
+  const todos = removeOldDeadlines;
   if (todos.length === 0) {
     return (
       <div className="text-red-500">
@@ -27,7 +20,8 @@ const TodoList = (props: Props) => {
   }
 
   return (
-    <div className="space-y-s1">
+    <div className="space-y-2">
+      <h2 className="mb-2 text-lg font-bold">その他のタスク</h2>   
       {todos.map((todo) => (
         <TodoItem 
           key={todo.id}
