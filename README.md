@@ -2,9 +2,10 @@
 
 React、TypeScript、Tailwind CSS を使用し、ローカルストレージでデータを永続化した「Todoアプリ」です。
 
+[作ったTodoアプリ](https://arikait0.github.io/react-todo-app2/)
 ## 開発履歴
 
-- 2025年10月23日：プロジェクト開始
+- 2025年10月23日 ～ 2025年11月20日
 
 ## ライセンス
 
