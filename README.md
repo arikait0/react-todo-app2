@@ -1,11 +1,28 @@
 # TodoApp
+<img width="965" height="430" alt="スクリーンショット 2025-11-20 140634" src="https://github.com/user-attachments/assets/e979ace0-1b99-4520-8b54-2ee60ede162a" />
+
 
 React、TypeScript、Tailwind CSS を使用し、ローカルストレージでデータを永続化した「Todoアプリ」です。
+その時にできた予定・仕事・課題などのタスクを記録し、管理することができます。
 
-[作ったTodoアプリ](https://arikait0.github.io/react-todo-app2/)
+実際に作ったアプリはこちら↓
+[TodoアプリのURL](https://arikait0.github.io/react-todo-app2/)
+
+## 使用技術
+  - React
+  - Typescript
+  - HTML
+  - Tailwind CSS
+
 ## 開発履歴
 
-- 2025年10月23日 ～ 2025年11月20日
+- 2025年10月23日 ～ 2025年11月20日 (約16時間)
+
+    react　19.1.1
+    react-dom　19.1.1
+    date-fns　4.1.0
+    dayjs　1.11.18
+    uuid　13.0.0
 
 ## ライセンス
 
