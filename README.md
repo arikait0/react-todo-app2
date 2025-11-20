@@ -1,8 +1,9 @@
 # TodoApp
-<img width="965" height="430" alt="スクリーンショット 2025-11-20 140634" src="https://github.com/user-attachments/assets/e979ace0-1b99-4520-8b54-2ee60ede162a" />
+<img width="868" height="425" alt="image" src="https://github.com/user-attachments/assets/fe84e8c3-d547-486c-93b5-57bf8e662c99" />
 
+## アプリ概要
 
-React、TypeScript、Tailwind CSS を使用し、ローカルストレージでデータを永続化した「Todoアプリ」です。
+本アプリは、React、TypeScript、Tailwind CSS を使用し、ローカルストレージでデータを永続化した「Todoアプリ」です。
 その時にできた予定・仕事・課題などのタスクを記録し、管理することができます。
 
 実際に作ったアプリはこちら↓
